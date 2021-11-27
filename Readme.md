@@ -1,8 +1,8 @@
 ## poc-csharp-console_app-coverage-test
 
-### Atalhos VsCode
+### Atalhos 
 
-- Markdown Preview: crtl+shift+v
+- [VsCode] Markdown Preview: crtl+shift+v
 - Visual Studio menu > Tools > Run Code Coverage
 - Visual Studio menu > Extensions > Manage extensions
 
