@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using SampleProject.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
+using SampleProjectxUnitTest.Infrastructure.Repository;
 
 namespace SampleProjectxUnitTest
 {
@@ -32,7 +33,7 @@ namespace SampleProjectxUnitTest
 
         public void ConfigureServices(IServiceCollection services, HostBuilderContext hostBuilderContext)
         {
-            services.AddDbContext<DatabaseContext>(options =>
+            services.AddDbContext<DatabaseContextMock>(options =>
             {
                 options.UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString());
             });
