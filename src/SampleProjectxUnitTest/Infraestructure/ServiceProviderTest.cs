@@ -15,7 +15,7 @@ namespace SampleProjectxUnitTest.Infraestructure
         }
 
         [Fact(DisplayName = "should be pass with defined")]
-        [Trait("ServiceProvider", "SayHello")]
+        [Trait("ServiceProvider", "ServiceProvider defined")]
         public void ServiceProviderTest_with_defined_result()
         {
             Assert.NotNull(_serviceProvider);

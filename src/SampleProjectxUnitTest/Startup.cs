@@ -7,6 +7,8 @@ using SampleProject.Application.InternalServices;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using SampleProject.Infrastructure.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace SampleProjectxUnitTest
 {
@@ -30,6 +32,10 @@ namespace SampleProjectxUnitTest
 
         public void ConfigureServices(IServiceCollection services, HostBuilderContext hostBuilderContext)
         {
+            services.AddDbContext<DatabaseContext>(options =>
+            {
+                options.UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString());
+            });
             services.AddTransient<IGreeterService, GreeterService>();
             services.AddTransient<IGreeterBusinessRule, GreeterBusinessRule>();
         }
