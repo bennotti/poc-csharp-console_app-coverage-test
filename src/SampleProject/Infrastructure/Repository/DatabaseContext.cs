@@ -11,10 +11,6 @@ namespace SampleProject.Infrastructure.Repository
         public DatabaseContext(DbContextOptions options) : base(options)
         {
         }
-
-        protected DatabaseContext()
-        {
-        }
         public DbSet<TaskEntity> Tasks { get; set; }
     }
 }
