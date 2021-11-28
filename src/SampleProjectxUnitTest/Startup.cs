@@ -2,8 +2,8 @@
 using Microsoft.Extensions.Hosting;
 using SampleProject.Core.BusinessRules.Interfaces;
 using SampleProject.Core.InternalServices.Interfaces;
-using SampleProject.Infra.BusinessRules;
-using SampleProject.Infra.InternalServices;
+using SampleProject.Application.BusinessRules;
+using SampleProject.Application.InternalServices;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -1,4 +1,4 @@
-using SampleProjectLib;
+using SampleProject;
 using System;
 using Xunit;
 

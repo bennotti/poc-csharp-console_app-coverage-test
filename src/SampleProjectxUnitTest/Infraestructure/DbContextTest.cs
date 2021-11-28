@@ -1,8 +1,8 @@
-using SampleProjectLib;
+using SampleProject;
 using System;
 using Xunit;
 
-namespace SampleProjectxUnitTest
+namespace SampleProjectxUnitTest.Infraestructure
 {
     public class DbContextTest
     {

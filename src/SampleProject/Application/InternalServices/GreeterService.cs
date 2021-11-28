@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SampleProject.Infra.InternalServices
+namespace SampleProject.Application.InternalServices
 {
     public class GreeterService: IGreeterService
     {

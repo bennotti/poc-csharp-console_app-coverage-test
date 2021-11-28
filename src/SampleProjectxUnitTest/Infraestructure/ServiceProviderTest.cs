@@ -1,9 +1,9 @@
 using Microsoft.Extensions.DependencyInjection;
-using SampleProjectLib;
+using SampleProject;
 using System;
 using Xunit;
 
-namespace SampleProjectxUnitTest
+namespace SampleProjectxUnitTest.Infraestructure
 {
     public class ServiceProviderTest
     {

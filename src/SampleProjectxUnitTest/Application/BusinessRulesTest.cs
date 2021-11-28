@@ -1,9 +1,9 @@
 using SampleProject.Core.BusinessRules.Interfaces;
-using SampleProjectLib;
+using SampleProject;
 using System;
 using Xunit;
 
-namespace SampleProjectxUnitTest
+namespace SampleProjectxUnitTest.Application
 {
     public class BusinessRulesTest
     {

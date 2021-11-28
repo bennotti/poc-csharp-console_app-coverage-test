@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SampleProject.Infra.BusinessRules
+namespace SampleProject.Application.BusinessRules
 {
     public class GreeterBusinessRule: IGreeterBusinessRule
     {

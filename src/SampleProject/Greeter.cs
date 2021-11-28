@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SampleProjectLib
+namespace SampleProject
 {
     public class Greeter
     {
