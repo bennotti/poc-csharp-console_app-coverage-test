@@ -1,4 +1,4 @@
-## poc-csharp-console_app-coverage-test
+## poc-csharp-dot-net-core-coverage-test
 
 ### Atalhos 
 
